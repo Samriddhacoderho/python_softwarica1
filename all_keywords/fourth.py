@@ -25,7 +25,7 @@ print(a)
 print(r'Hello\nPython')
 print('C:users\\python')
 print(stri)
-print(stri.center(6,"*"))
+print(stri.center(6,"*"))  #
 
 stri='python'
 print(stri.ljust(2,"*"))

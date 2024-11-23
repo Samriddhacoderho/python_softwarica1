@@ -1,4 +1,4 @@
-a=[5,4,3,2,1]
+a=[3,10,5,6,8,1]
 for i in range(1,len(a)):
     temp=a[i]
     j=i-1

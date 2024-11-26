@@ -5,10 +5,23 @@ print(stri.lower())
 print(stri.count('O'))
 print(stri.find('H'))
 print(stri.replace('HELLO','JELLO'))
+#print(stri.replace('He','Z'))  it gives Zllo such that stri='Hello'
 print(stri.split(" "))
 print(len(stri.split(" ")))
 print(stri.strip())
-print(stri.swapcase())
+print(stri.title)  #if stri=python programming, harek word ko first letter lai capitalize garcha. 
+print(stri.swapcase())  #lower lai capital, and vice versa garcha
+
+# Make trans method
+a='python'
+b=a.maketrans('p','z')
+print(b) #This gives dictionary. {p ko ascii value: z ko ascii value}
+print(a.translate(b))  #Now, this gives zython. 
+#b=a.maketrans('py','z')  this gives error. so multiple letters lai single letter le replace garna milne is only possible for .replace() method.
+
+#ASCII Value a-z=97-122
+#A-Z: 65-90
+# 0-9: 48-57
 
 stri2="Hello\"\" this is a escape test"  #if we want double quote as a string inside a double quoted string, use \ ani then enter the desired double quote. 
 print(stri2)

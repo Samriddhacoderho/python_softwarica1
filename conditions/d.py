@@ -13,12 +13,21 @@
 # else:
 #     print("F")
 
-dict_this={
-    80:"A"
-    
+a=45
+dict={
+    "A":a>80 and a<=100,
+    "B":a>60 and a<=80,
+    "C":a>50 and a<=60,
+    "D": a>45 and a<=50,
+    "E":a>25 and a<=45,
+    "F":a<=25 and a>=0
 }
-a=85
-print(dict_this[a])
+keys=list(dict.keys())
+values=list(dict.values())
+print(keys[values.index(True)])
+
+
+
 
 
 

@@ -6,5 +6,5 @@
 # a=11
 # b=12
 # print(f'{a}{b}') #this works
-# print(f'{0}{1}') #this does not work
+print(f'{0}{1}') #this works
 

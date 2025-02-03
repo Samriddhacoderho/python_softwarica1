@@ -1,0 +1,5 @@
+f=open('/Users/suhritsatyal/Desktop/python_softwarica1/filehandling/demo.txt','r')
+f2=open('/Users/suhritsatyal/Desktop/python_softwarica1/filehandling/python.txt','w')
+f2.write(f.read())
+f2.close()
+f.close()

@@ -1,0 +1,9 @@
+a=[2,3,4,5]
+i=0
+while(i<len(a)):
+    j=1
+    while(j<=10):
+        print(a[i],"X",j,"=",a[i]*j)
+        j+=1
+    print()
+    i+=1

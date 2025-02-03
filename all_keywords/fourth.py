@@ -9,7 +9,7 @@ print(stri.replace('HELLO','JELLO'))
 print(stri.split(" "))
 print(len(stri.split(" ")))
 print(stri.strip())
-print(stri.title)  #if stri=python programming, harek word ko first letter lai capitalize garcha. 
+print(stri.title())  #if stri=python programming, harek word ko first letter lai capitalize garcha. 
 print(stri.swapcase())  #lower lai capital, and vice versa garcha
 
 # Make trans method
@@ -31,17 +31,33 @@ print(stri3)
 print('python\tprogramming')
 print('python\tprogram'.expandtabs(tabsize=4))
 
+
+# tabsize ra \t ko sab code: use chat gpt to make it explain this below code snippet:
+print("Python Programming")
+print("Python\tProgramming") #gives me 2 spaces
+
+print("Pythona\tProgramming")
+print("Pythona Programming")
+
+print("Pythonaa1234Programming")
+print("Pythonaa\tProgramming")
+
+print("Python1234Programming")
+print("Python\tProgramming".expandtabs(tabsize=5))
+
+# use chat gpt mathi ko code explain garna. USE PYTHON ONLINE COMPILER
+
 a='python\rabc'
 print(a)
 a='pyt\rabcabc'
 print(a)
 print(r'Hello\nPython')
-print('C:users\\python')
+print('C:users\python')
 print(stri)
 print(stri.center(6,"*"))  #
 
 stri='python'
-print(stri.ljust(2,"*"))
+print(stri.ljust(8,"*"))
 
 stri='pythonp'
 b=stri.rfind('p')

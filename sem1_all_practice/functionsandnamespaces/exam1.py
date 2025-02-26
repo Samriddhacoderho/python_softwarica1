@@ -30,3 +30,79 @@
 # print(a is b)
 # c=list.copy(a)
 # print(a is c)
+
+
+# a=1,2,3
+# print(type(a))
+
+
+# a={1,2,3}
+# a.add("Hi")
+# print(a)
+# a.update({4,5,6})
+# print(a)
+
+# a={1,2,3}
+# a.update('String')
+# print(a)
+
+# a={1,2,3,4}
+# # a.remove(5)
+# a.discard(5)
+# print(a)
+# print(a.pop())
+
+# a={1,2,3,4}
+# b={3,4,5,6,7,8}
+# c=a.union(b)
+# print(c)
+# a.intersection_update(b)
+# print(a)
+
+# a={1,2,3,4}
+# b={5,6,5,6}
+# print(a.symmetric_difference(b))
+# print(a.isdisjoint(b))
+
+
+
+# a={
+#     'name':'Sam',
+#     'age':19,
+#     'weight':61
+# }
+
+# a['color']='green'
+# print(a)
+
+# print(a.pop('name'))
+# print(a.popitem())
+
+# a={
+#     'name':'Sam',
+#     'age':19,
+#     'weight':61
+#     }
+
+# print(a.get('askdn','Not found'))
+
+
+a={
+    'name':'Sam',
+    'age':19,
+    'weight':61
+}
+
+for i in a:
+    print(i)
+
+for i in a.keys():
+    print(i)
+
+for i in a.values():
+    print(i)
+
+for i,j in a.items():
+    print(f'{i} ={j}')
+
+
